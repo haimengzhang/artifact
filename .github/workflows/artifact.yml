@@ -3,8 +3,8 @@ name: artifact
 on: [push]
 
 env:
-  ARTIFACT_NAME: myartifact
   FILE_NAME: hello-server
+  ARTIFACT_NAME: ${{env.FILE_NAME}}
 
 jobs:
   main:
