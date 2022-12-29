@@ -4,7 +4,7 @@ on: [push]
 
 env:
   FILE_NAME: hello-server
-  ARTIFACT_NAME: ${{env.FILE_NAME}}
+  ARTIFACT_NAME: hello-server
 
 jobs:
   main:
